@@ -205,6 +205,16 @@ nav ul .dropdown:hover .pd {
     margin-bottom: 10px;
 }
 /* *********** price list page ********** */
+.priceTitle{
+    background-image: url("../images/Price-List-600x314.jpg");
+    background-attachment: fixed;
+    background-position:center;
+    background-size: cover;
+    color: #fff;
+}
+.priceTitle .container-fluid{
+    background-color: #000000d1;
+}
 .plAgency{
     border-bottom: 2px solid #ddd;
     padding-bottom: 15px;
@@ -265,6 +275,9 @@ nav ul .dropdown:hover .pd {
 .articlesPageTitle .container-fluid{
     background-color: #000000d1;
 }
+.artcTitle{
+    text-align: start;    
+}
 /* *********** articles page ********** */
 /* *********** contat us page **********/
 .checkMe{
@@ -274,7 +287,7 @@ nav ul .dropdown:hover .pd {
 }
 /* *********** contat us page **********/
 /* *********** portfolio page ************ */
-.portfolioTitle{
+.portfolioTitlePage{
     background-image: url('../images/portfolio/greenmindagency-Portfolio.jpg');
     background-attachment: fixed;
     background-position:center;
@@ -315,8 +328,8 @@ textarea{
     justify-content: center;
 }
 .titleContent {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 120px;
+    padding-bottom: 70px;
 }
 .headTitle .titleContent ,
 .headTitle .titleButtons{
