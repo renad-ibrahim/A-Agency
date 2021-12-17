@@ -1,0 +1,127 @@
+.container-fluid{
+    padding: 0px !important;
+}
+.row{
+    margin: 0px;
+}
+span i{
+    color: green;
+    font-size: 20px;
+    font-weight: 700;
+}
+a{
+    color: green;
+}
+.navbar-brand img{
+    width: 100%;
+    height: 50px;
+}
+.collapse{
+    justify-content: end;
+}
+.linkIcon{
+    border: 1px solid green;
+}
+.searchIcon{
+    background-color: #ddd;
+}
+.searchIcon ,
+.linkIcon{
+    border-radius: 5px;
+    padding-top: 2%;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    margin: 0px 10px 0px 10px;
+}
+.headertitle{
+    background-color: #000;
+    color: #fff;
+    padding: 100px;
+}
+/* ************* Main Topics ********** */
+.topics{
+    background-color: #ddd;
+    padding: 100px 0px;
+}
+.topics .row{
+    padding-top: 30px;
+    justify-content: center;
+}
+.topics span i{
+    font-size: 50px;
+    font-weight: 700;
+    color: green;
+}
+/* ************ Posts *********** */
+.posts{
+    padding: 50px 0px;
+}
+.posts .row{
+    justify-content: space-between;
+}
+.posts h6{
+    border-bottom: 1px solid #ddd;
+    text-align: start;
+    font-size: 50px;
+}
+.posts div{
+    text-align: start;
+}
+.posts .row div:last-of-type button{
+    margin-top: 15px;   
+}
+.card{
+    text-align: start;
+    margin-top: 15px;
+    box-shadow: 2px 5px 8px 2px #ddd ;
+}
+/* ********** Form ********** */
+.form{
+    background-image: url("../images/blog/Green-Mind-Agency-Blog-Website-1024x536.jpg");
+    background-attachment: fixed;
+    background-position:center;
+    background-size: cover;
+    margin-top: 15px;
+}
+.form .container-fluid{
+    background-color: #000000d1;
+}
+.form .formTitle{
+    color: #fff;
+    padding:35px ;
+}
+.form .formTitle p:first-of-type{
+    font-size: 55px;
+}
+/* ********** Footer ********* */
+.footer{
+    background-color: #000;
+    padding: 20px;
+}
+.footer .row{
+    margin-top: 0px;
+    justify-content: space-between;
+}
+.footer div:first-of-type .icons{
+    display: flex;
+}
+.footer h4{
+    color: #fff;
+}
+.footer ul{
+    padding-left: 0px;
+}
+.footer ul li{
+    padding-bottom: 10px;
+}
+.footer .expertise ul li a {
+    color: #b0b0b0;
+}
+.footer ul li span {
+    color: #28a745;
+}
+.footer .icons li a{
+    font-size: 40px;
+    padding-right: 5px;
+}

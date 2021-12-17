@@ -1,0 +1,630 @@
+body{
+    background-color: #f8f9fb;
+}
+.col-lg-2{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.col-lg-10{
+    padding: 0px;
+}
+.content .row{
+    margin-top: 10px;
+}
+.content a ,
+.services .servicesTypes span{
+    text-decoration: none;
+    color: #28a745;
+}
+a:hover {
+    color: darkgreen;
+    font-weight: 700;
+}
+/* ********** navbar ********** */
+.firstNav{
+    padding: 10px;   
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    width: 100%; 
+    z-index: 99;
+    background: #fff;
+    box-shadow: 1px 1px 1px 1px #ddd;
+}
+.firstNav .images{
+    display: flex;
+}
+.firstNav .images img{
+    width: 20%; 
+}
+.mobileLogo{
+    width: 50%;
+}
+.mobileLogo .images img{
+    width: 20%;
+    float: left;
+}
+.firstNav form{
+    display: flex;
+    margin: 0px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.firstNav form div:first-of-type{
+    width: calc(100% - 110px);
+}
+.firstNav form div:first-of-type input{
+    width: 100%;
+    padding: 8px;
+    border: 2px solid #ddd;
+}
+.firstNav form div:nth-of-type(2){
+    background-color: #ddd;
+}
+.firstNav form div:nth-of-type(2):hover{
+    background-color: rgb(128, 128, 128);
+}
+.firstNav form div:nth-of-type(2) ,
+.firstNav form div:last-of-type{
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.firstNav form div:last-of-type {
+    color: #000;
+    border: 2px solid #28a745;
+}
+.firstNav form div:last-of-type:hover{
+    background-color: #28a745;
+}
+/* *********** whatsApp ********** */
+.whatsapp{
+    position: fixed;
+    bottom: 25px;
+    right: 20px;
+    z-index: 100;
+}
+.whatsapp .icon {
+    background-color: #28a745;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+}
+.whatsapp .icon span a{
+    color: #fff;
+    font-size: 48px;
+    position: relative;
+    top: -5px;
+    right: 7px;
+}
+.whatsapp .icon span a:hover{
+    font-weight: 700;
+}
+/* ********** All Contetnt ********** */
+.content{
+    margin-top: 68px;
+}
+.content nav {
+    background-color: #28a745;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.navbar-collapse{
+    position: fixed;
+    top: 80px;
+}
+nav ul{
+    padding-left: 0px;
+}
+nav ul .nav-item ,
+.dropdown div ,
+nav ul .pd li{
+    display: flex;
+    align-items: center;
+}
+nav .collapse ul li a:hover{
+    color: darkgreen !important;
+}
+nav ul li a , 
+nav ul li span i{
+    color: #fff !important;
+}
+nav ul .pd {
+    display: none;
+}
+nav ul .pd li{
+    padding: 0px 10px;
+}
+nav ul .pd li i {
+    color: white;
+}
+nav ul .dropdown:hover .pd {
+   display: block;
+}
+/* ********************* HeadTitle ************************ */
+/* ********** About Page ********** */
+.aboutTitle{
+    background-image: url("../images/about us/about\ background.jpg");
+    background-attachment: fixed;
+    background-position:center;
+    background-size: cover;
+    color: #fff;
+}
+.about .reviews{
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 3px #ddd;
+}
+.about .reviews .reviewsTitle{
+    background-color: #000;
+    color: #fff;
+    font-weight: 700;
+    padding: 5px;
+    margin-bottom: 0px;
+}
+.reviews .row div:last-of-type{
+    padding: 20px;
+}
+.reviews .row{
+    margin-top: 0px;
+}
+/* ********** About Page ********** */
+/* ********** latestWork page ********** */
+.workTitle{
+    background-image: url("../images/latestWork/Nestle-Social-Media.jpg");
+    background-attachment: fixed;
+    background-position:center;
+    background-size: cover;
+    color: #fff;
+}
+.workTitle .container-fluid ,
+.aboutTitle .container-fluid{
+    background-color: #000000d1;
+}
+/* ********** latestWork page ********** */
+/* ********** clients page ************* */
+.clientsTitle{
+    background-image: url("../images/adv.jpg");
+    background-attachment: fixed;
+    background-position:center;
+    background-size: cover;
+    color: #fff;
+}
+.clientsTitle .container-fluid{
+    background-color: #000000d1;
+}
+.ourProjects img{
+    border: 1px solid #ddd;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/* *********** price list page ********** */
+.plAgency{
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 15px;
+}
+.smM{
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.pricePerMonth{
+    background-color: black;
+    padding: 55px;
+    color: #fff;
+}
+.pricePerMonth p:first-of-type ,
+.pricePerMonth p:nth-of-type(2){
+    font-weight: bold;
+}
+.socialMedia .smInfo p {
+    padding: 10px 0px 5px 10px;
+}
+.socialMedia .card .smInfo p:not(p:last-of-type){
+    border-bottom: 2px solid #ddd;
+}
+.withoutRep{
+    background-color: #ccc;
+    padding: 20px 0px 20px 10px;
+}
+.infobtn{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.infobtn a{
+    color: #fff;
+}
+/* *********** price list page ********** */
+/* ********** news page ********** */
+.newsPageTitle{
+    background-image: url('../images/news/WordprSEO-Website-Builder.jpg');
+    background-attachment: fixed;
+    background-position:center;
+    background-size: cover;
+    color: #fff;
+}
+.newsPageTitle .container-fluid{
+    background-color: #000000d1;
+}
+/* *********** news page ********** */
+/* ********** articles page ********** */
+.articlesPageTitle{
+    background-image: url('../images/articles/Digital-Marketing-Topics.jpg');
+    background-attachment: fixed;
+    background-position:center;
+    background-size: cover;
+    color: #fff;
+}
+.articlesPageTitle .container-fluid{
+    background-color: #000000d1;
+}
+/* *********** articles page ********** */
+/* *********** contat us page **********/
+.checkMe{
+    color: #000 !important;
+    top: -2px !important;
+    left: 20px !important;
+}
+/* *********** contat us page **********/
+/* *********** portfolio page ************ */
+.portfolioTitle{
+    background-image: url('../images/portfolio/greenmindagency-Portfolio.jpg');
+    background-attachment: fixed;
+    background-position:center;
+    background-size: cover;
+    color: #fff;
+}
+.portfolioTitle .container-fluid{
+    background-color: #000000d1;
+}
+/** ********** request a quote ********* */
+.custom-file-input:lang(en)~.custom-file-label::after {
+    content: "Choose File" !important;
+}
+.custom-file{
+    top: 10px;
+}
+textarea{
+    margin-top: 25px;
+}
+/** ********** request a quote ********* */
+/* ********** blog page *********** */
+.navForm{
+    justify-content: space-between !important;
+}
+/* ********** blog page *********** */
+/* ********** clients page ************* */
+
+.headTitle {
+    background-color: black;
+    color: #fff;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.headTitle .container-fluid{
+    padding-left: 0px;
+}
+.headTitle .row{
+    justify-content: center;
+}
+.titleContent {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.headTitle .titleContent ,
+.headTitle .titleButtons{
+   line-height: 2.5;
+}
+/* ********** services ********** */
+.services{
+    background-color: #ddd;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+.services .servicesTypes p:first-of-type{
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 2px solid #b0b0b0;
+    padding-bottom: 10px;
+}
+.services .servicesTypes p a{
+    color: #000;
+}
+.services .servicesTypes{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.services .servicesTypes span{
+    font-size: 50px;
+}
+
+/* ********** brands and clients ********** */
+.brands{
+    padding-top: 70px;
+    padding-bottom: 70px;   
+}
+.brands .ourClients{
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+.brands .ourClients img{
+    width: 100%;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+}
+/* ********** Portfolio ********** */
+.portfolio{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    overflow: hidden;
+}
+.portfolio .caseStudy{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.portfolio .caseStudy .card{
+    margin-bottom: 15px;
+}
+/* ********** Worldwide ********** */
+.advWorldwide ,
+.articles ,
+.news{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.advWorldwide img{
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+/* ********** Articles and News********** */
+.articles .artcTitle ,
+.news .newsTitle{
+    display: flex;
+    justify-content: start;
+    border-bottom: 2px solid #b0b0b0;
+}
+ .newsLetter {
+    border: 1px solid #b0b0b0;
+    padding: 10px;
+}
+ .newsLetter .newsTitle{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #b0b0b0;
+}
+ .newsLetter .newsTitle span{
+    font-size: 30px;
+    color: #28a745;
+    margin-right: 15px;
+}
+ .newsLetter .newsSub .row{
+    justify-content: space-around;
+}
+.newsLetter .newsSub .row button{
+    font-size: 12px;
+}
+ .latestArticles ,
+ .latestNews{
+    padding-bottom: 30px;
+}
+ .latestArticles .card ,
+ .latestNews .card{
+    margin-bottom: 10px;
+}
+.latestArticles .card p:last-of-type ,
+.latestNews .card p:last-of-type{
+    color: #b0b0b0;
+}
+ .whyUs{
+    margin-top: 10px;
+    border: 1px solid #b0b0b0;
+    padding: 10px;
+}
+ .whyUs ul li span{
+    color: #28a745;
+    font-size: 25px;
+    position: relative;
+    top: 5px;
+}
+ .whyUsTitle{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+ .whyUsTitle span{
+    font-size: 30px;
+    color: #28a745;
+    margin-right: 15px;
+}
+/* ********** dmAgency ********** */
+.dmAgency .table{
+    padding: 20px;
+    background-color: #e6e6e6;
+    border-radius: 15px;
+}
+.dmAgency div img{
+    width: 100%;
+}
+.dmAgency .card{
+    padding: 20px;
+}
+.dmAgency .card button a{
+    color: #fff;
+}
+.dmAgency .card p:first-of-type{
+    font-weight: 700;
+}
+/* ********** Form ********** */
+.form{
+    background-image: url("../images/green-mind.jpg");
+    background-attachment: fixed;
+    background-position:center;
+    background-size: cover;
+    margin-top: 15px;
+}
+.form .container-fluid{
+    background-color: #000000d1;
+}
+.form form .form-group input{
+    display: bolck !important;
+}
+.form .formTitle{
+    color: #fff;
+    padding:35px ;
+}
+.form .formTitle p:first-of-type{
+    font-size: 55px;
+}
+.form .form-group{
+    padding-bottom: 50px;
+    margin-bottom: 0px;
+}
+.form .form-group .in{
+    width: 80%;
+    border-radius: 5px;
+    padding: 5px;
+}
+.form .form-group textarea{
+    height: 120px;
+}
+.form .form-check .row{
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+.form-check label{
+    color: #fff;
+    position: relative;
+    top: 3px;
+    left: 10px;
+}
+.form .form-group .row:not(.row:last-of-type){
+    justify-content: center;
+}
+/* ********** Footer ********* */
+.footer{
+    background-color: #000;
+    padding: 20px;
+}
+.footer .row{
+    margin-top: 0px;
+    justify-content: space-between;
+}
+.footer div:first-of-type .icons{
+    display: flex;
+}
+.footer h4{
+    color: #fff;
+}
+.footer ul{
+    padding-left: 0px;
+}
+.footer ul li{
+    padding-bottom: 10px;
+}
+.footer .expertise ul li a {
+    color: #b0b0b0;
+}
+.footer ul li span {
+    color: #28a745;
+}
+.footer .icons li a{
+    font-size: 40px;
+    padding-right: 5px;
+}
+/* ********** media query ********** */
+@media  (max-width:991px) {
+    .content nav {
+        height: 65px;  
+        position: fixed;
+        top: 0px; 
+        z-index: 99;
+        background: #fff;
+        box-shadow: 1px 1px 1px 1px #ddd;
+    }
+    nav .collapse{
+        position: relative;
+    }
+    .firstNav{
+        display: none;
+    }
+    .content  .navbar .row{
+        justify-content: space-between;
+        align-items: center;
+    }
+    .content{
+        margin-top: -5px;
+    }
+    .collapse.show{
+        background-color: #28a745;
+        margin-right: -16px;
+        margin-left: -16px;
+        padding: 20px;
+        position: relative;
+        top: 0px;
+    }
+    .ourGoal h1{
+        padding: 20px;
+    }
+    .services .marketing2 img{
+        margin-top: 10px;
+    }
+    .clients .row{
+        justify-content: center;
+    }
+    .services .tradeMark2 img{
+        margin-right: 0px;
+    }
+    .newsSub input{
+        width: 50%;
+    }
+}
+@media (min-width: 619px) and (max-width:990px){
+    .mobileLogo{
+        width: 30%;
+    }
+}
+@media (min-width:991px) and (max-width:1600px){
+    .content .mobileLogo .images img{
+        display: none;
+    }
+}
+@media (min-width:768px) and (max-width:920px){
+    .newsLetter .newsSub .row button{
+        font-size: 8px;
+    }
+}
+@media (min-width: 991px) and (max-width: 1206px){
+    .infobtn{
+        display: block;
+    }
+    .infobtn .btn{
+        margin-top: 10px;
+    }
+    .newsTitle h2{
+        font-size: 20px;
+    }
+    .newsSub button{
+        margin-top: 5px;
+        padding-right: 65px;
+    }
+    .newsSub input{
+        width: 75%;
+    }
+    .pricePerMonth {
+        padding: 35px;
+    }
+}
+/* *********** articles page pagentation *********** */
+#page2 , #page3{
+    display: none;
+}
